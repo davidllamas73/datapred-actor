@@ -1,0 +1,19 @@
+{
+  "name": "datapred-data-source-analyzer",
+  "version": "1.0.0",
+  "description": "Analyzes DataPred platform to identify data sources for shrimp price forecasting",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "apify": "^3.1.0",
+    "crawlee": "^3.5.0",
+    "puppeteer": "^21.0.0",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
